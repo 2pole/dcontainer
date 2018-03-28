@@ -125,7 +125,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DContainer.WebApi", "DConta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DContainer.Prism6", "DContainer.Prism6\DContainer.Prism6.csproj", "{D9374E92-10B6-413D-8EBE-EEC18ECBC2EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DContainer", "dcontainer\DContainer\DContainer.csproj", "{1B2074CC-F0CF-4BDF-BE55-7123DADEC808}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DContainer", "dcontainer\DContainer.csproj", "{1B2074CC-F0CF-4BDF-BE55-7123DADEC808}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
