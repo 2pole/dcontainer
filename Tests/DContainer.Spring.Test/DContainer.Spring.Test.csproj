@@ -100,7 +100,7 @@
       <Project>{0D925E41-3B89-4AB1-AD30-60A3753675DC}</Project>
       <Name>DContainer.Spring</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\dcontainer\DContainer\DContainer.csproj">
+    <ProjectReference Include="..\..\dcontainer\DContainer.csproj">
       <Project>{1b2074cc-f0cf-4bdf-be55-7123dadec808}</Project>
       <Name>DContainer</Name>
     </ProjectReference>

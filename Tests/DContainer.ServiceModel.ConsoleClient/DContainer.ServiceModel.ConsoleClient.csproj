@@ -51,7 +51,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\dcontainer\DContainer\DContainer.csproj">
+    <ProjectReference Include="..\..\dcontainer\DContainer.csproj">
       <Project>{1b2074cc-f0cf-4bdf-be55-7123dadec808}</Project>
       <Name>DContainer</Name>
     </ProjectReference>

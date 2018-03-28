@@ -104,7 +104,7 @@
       <Project>{c34a7ac2-7445-4111-b813-ef1eada6afd8}</Project>
       <Name>DContainer.Castle</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\dcontainer\DContainer\DContainer.csproj">
+    <ProjectReference Include="..\..\dcontainer\DContainer.csproj">
       <Project>{1b2074cc-f0cf-4bdf-be55-7123dadec808}</Project>
       <Name>DContainer</Name>
     </ProjectReference>

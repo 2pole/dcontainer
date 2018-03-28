@@ -63,7 +63,7 @@
       <Project>{8b7466b4-1e43-480b-b7ff-995f61e461ac}</Project>
       <Name>DContainer.ServiceModel</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\dcontainer\DContainer\DContainer.csproj">
+    <ProjectReference Include="..\..\dcontainer\DContainer.csproj">
       <Project>{1b2074cc-f0cf-4bdf-be55-7123dadec808}</Project>
       <Name>DContainer</Name>
     </ProjectReference>

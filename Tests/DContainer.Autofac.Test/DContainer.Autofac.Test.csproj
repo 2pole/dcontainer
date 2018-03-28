@@ -58,9 +58,6 @@
     <Reference Include="CommonServiceLocator, Version=2.0.3.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
       <HintPath>..\..\packages\CommonServiceLocator.2.0.3\lib\net40\CommonServiceLocator.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Practices.ServiceLocation">
-      <HintPath>..\..\packages\CommonServiceLocator.1.0\lib\NET35\Microsoft.Practices.ServiceLocation.dll</HintPath>
-    </Reference>
     <Reference Include="Moq, Version=4.8.0.0, Culture=neutral, PublicKeyToken=69f491c39445e920, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Moq.4.8.2\lib\net45\Moq.dll</HintPath>
     </Reference>
@@ -106,7 +103,7 @@
       <Project>{90A52E25-68A4-438D-9B91-7803F778A3CB}</Project>
       <Name>DContainer.Autofac</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\dcontainer\DContainer\DContainer.csproj">
+    <ProjectReference Include="..\..\dcontainer\DContainer.csproj">
       <Project>{1b2074cc-f0cf-4bdf-be55-7123dadec808}</Project>
       <Name>DContainer</Name>
     </ProjectReference>
