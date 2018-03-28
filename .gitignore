@@ -1,0 +1,17 @@
+# Standard VS.NET and ReSharper Foo
+/packages
+*bin/
+*obj/
+*.csproj.user
+_ReSharper*
+*.user
+*.suo*
+*.cache
+* Thumbs.db
+*.csproj.ReSharper
+*.nupkg
+
+*.orig
+*~
+/.vs/DContainer/v15
+/dcontainer

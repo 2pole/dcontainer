@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>DContainer</id>
+        <version>1.0.13</version>
+        <title>DContainer</title>
+        <authors>Zork</authors>
+        <owners>Zork</owners>
+        <projectUrl>http://dcontainer.codeplex.com</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>DContainer is a common dependency injection adapter for the popular IoC container</description>      
+        <copyright>Copyright 2012 @Zork</copyright>
+        <tags>DI IoC Container</tags>
+        <dependencies>
+            <dependency id="CommonServiceLocator" version="1.0" />
+            <dependency id="Common.Logging" version="2.1.2" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\..\DContainer\Bin\Release\DContainer.dll" target="lib\net40\DContainer.dll" />
+        <file src="..\..\DContainer\Bin\Release\DContainer.pdb" target="lib\net40\DContainer.pdb" />
+        <file src="..\..\DContainer\Bin\Release\DContainer.XML" target="lib\net40\DContainer.XML" />
+    </files>
+</package>

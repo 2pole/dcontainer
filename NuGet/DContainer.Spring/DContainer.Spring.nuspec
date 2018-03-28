@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>DContainer.Spring</id>
+        <version>1.0.13</version>
+        <title>DContainer.Spring</title>
+        <authors>Zork</authors>
+        <owners>Zork</owners>
+        <projectUrl>http://dcontainer.codeplex.com</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+      <description>An adapter to implement DContainer on top of Spring.NET</description>
+        <copyright>Copyright 2012 @Zork</copyright>
+        <tags>DI IoC Container Spring</tags>
+        <dependencies>
+            <dependency id="DContainer" version="1.0.13" />
+            <dependency id="Spring.Core" version="1.3.2" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Content\App.config.transform" target="Content\App.config.transform" />
+        <file src="Content\Web.config.transform" target="Content\Web.config.transform" />
+        <file src="..\..\DContainer.Spring\bin\Release\DContainer.Spring.dll" target="lib\net40\DContainer.Spring.dll" />
+        <file src="..\..\DContainer.Spring\bin\Release\DContainer.Spring.pdb" target="lib\net40\DContainer.Spring.pdb" />
+        <file src="..\..\DContainer.Spring\bin\Release\DContainer.Spring.XML" target="lib\net40\DContainer.Spring.XML" />
+    </files>
+</package>

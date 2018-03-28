@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>DContainer.ServiceModel</id>
+    <version>1.0.12</version>
+    <title>DContainer.ServiceModel</title>
+    <authors>Zork</authors>
+    <owners>Zork</owners>
+    <projectUrl>http://dcontainer.codeplex.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>WCF Integration for DContainer</description>
+    <copyright>Copyright 2012 @Zork</copyright>
+    <tags>DI IoC Container WCF WebService ServiceModel</tags>
+    <dependencies>
+      <dependency id="DContainer" version="1.0.12" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\..\DContainer.ServiceModel\bin\Release\DContainer.ServiceModel.dll" target="lib\net40\DContainer.ServiceModel.dll" />
+    <file src="..\..\DContainer.ServiceModel\bin\Release\DContainer.ServiceModel.pdb" target="lib\net40\DContainer.ServiceModel.pdb" />
+    <file src="..\..\DContainer.ServiceModel\bin\Release\DContainer.ServiceModel.XML" target="lib\net40\DContainer.ServiceModel.XML" />
+  </files>
+</package>

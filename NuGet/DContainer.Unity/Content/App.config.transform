@@ -1,0 +1,8 @@
+﻿<configuration>
+  <configSections>
+    <section name="dcontainer" type="DContainer.Configuration.DContainerSection, DContainer"/>
+  </configSections>
+  <dcontainer>
+    <contextProvider type="DContainer.Unity.ServiceContextProvider, DContainer.Unity" />
+  </dcontainer>
+</configuration>

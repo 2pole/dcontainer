@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>DContainer.Unity</id>
+        <version>1.0.12</version>
+        <title>DContainer.Unity</title>
+        <authors>Zork</authors>
+        <owners>Zork</owners>
+        <projectUrl>http://dcontainer.codeplex.com</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>An adapter to implement DContainer on top of Unity</description>
+        <copyright>Copyright 2012 @Zork</copyright>
+        <tags>DI IoC Container Unity</tags>
+        <dependencies>
+            <dependency id="DContainer" version="1.0.13" />
+            <dependency id="Unity" version="2.1.505.2" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Content\App.config.transform" target="Content\App.config.transform" />
+        <file src="Content\Web.config.transform" target="Content\Web.config.transform" />
+        <file src="..\..\DContainer.Unity\bin\Release\DContainer.Unity.dll" target="lib\net40\DContainer.Unity.dll" />
+        <file src="..\..\DContainer.Unity\bin\Release\DContainer.Unity.pdb" target="lib\net40\DContainer.Unity.pdb" />
+        <file src="..\..\DContainer.Unity\bin\Release\DContainer.Unity.XML" target="lib\net40\DContainer.Unity.XML" />
+    </files>
+</package>

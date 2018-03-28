@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>DContainer.WebApi</id>
+    <version>1.0.3</version>
+    <title>DContainer.WebApi</title>
+    <authors>Zork</authors>
+    <owners>Zork</owners>
+    <projectUrl>http://dcontainer.codeplex.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ASP.NET WebApi Integration for DContainer</description>
+    <copyright>Copyright 2012 @Zork</copyright>
+    <tags>DI IoC Container ASP.NET WebApi</tags>
+    <dependencies>
+      <dependency id="DContainer" version="1.0.12" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\..\DContainer.WebApi\bin\Release\DContainer.WebApi.dll" target="lib\net40\DContainer.WebApi.dll" />
+    <file src="..\..\DContainer.WebApi\bin\Release\DContainer.WebApi.pdb" target="lib\net40\DContainer.WebApi.pdb" />
+    <file src="..\..\DContainer.WebApi\bin\Release\DContainer.WebApi.XML" target="lib\net40\DContainer.WebApi.XML" />
+  </files>
+</package>

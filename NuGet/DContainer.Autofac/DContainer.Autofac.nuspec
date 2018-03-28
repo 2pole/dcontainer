@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>DContainer.Autofac</id>
+        <version>1.0.13</version>
+        <title>DContainer.Autofac</title>
+        <authors>Zork</authors>
+        <owners>Zork</owners>
+        <projectUrl>http://dcontainer.codeplex.com</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>An adapter to implement DContainer on top of Autofac</description>
+        <copyright>Copyright 2012 @Zork</copyright>
+        <tags>DI IoC Container Autofac</tags>
+        <dependencies>
+            <dependency id="DContainer" version="1.0.13" />
+            <dependency id="Autofac" version="2.6.3.862" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Content\App.config.transform" target="Content\App.config.transform" />
+        <file src="Content\Web.config.transform" target="Content\Web.config.transform" />
+        <file src="..\..\DContainer.Autofac\bin\Release\DContainer.Autofac.dll" target="lib\net40\DContainer.Autofac.dll" />
+        <file src="..\..\DContainer.Autofac\bin\Release\DContainer.Autofac.pdb" target="lib\net40\DContainer.Autofac.pdb" />
+        <file src="..\..\DContainer.Autofac\bin\Release\DContainer.Autofac.XML" target="lib\net40\DContainer.Autofac.XML" />
+    </files>
+</package>
