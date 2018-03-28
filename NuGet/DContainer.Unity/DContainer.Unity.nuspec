@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>DContainer.Unity</id>
-        <version>1.0.12</version>
+        <version>1.1.0</version>
         <title>DContainer.Unity</title>
         <authors>Zork</authors>
         <owners>Zork</owners>
@@ -12,15 +12,17 @@
         <copyright>Copyright 2012 @Zork</copyright>
         <tags>DI IoC Container Unity</tags>
         <dependencies>
-            <dependency id="DContainer" version="1.0.13" />
-            <dependency id="Unity" version="2.1.505.2" />
+            <dependency id="DContainer" version="1.1.0" />
+            <dependency id="Unity" version="5.8.0" />
+            <dependency id="Common.Logging" version="3.4.1" />
+            <dependency id="CommonServiceLocator" version="4.1.0" />
         </dependencies>
     </metadata>
     <files>
         <file src="Content\App.config.transform" target="Content\App.config.transform" />
         <file src="Content\Web.config.transform" target="Content\Web.config.transform" />
-        <file src="..\..\DContainer.Unity\bin\Release\DContainer.Unity.dll" target="lib\net40\DContainer.Unity.dll" />
-        <file src="..\..\DContainer.Unity\bin\Release\DContainer.Unity.pdb" target="lib\net40\DContainer.Unity.pdb" />
-        <file src="..\..\DContainer.Unity\bin\Release\DContainer.Unity.XML" target="lib\net40\DContainer.Unity.XML" />
+        <file src="..\..\DContainer.Unity\bin\Release\DContainer.Unity.dll" target="lib\net45\DContainer.Unity.dll" />
+        <file src="..\..\DContainer.Unity\bin\Release\DContainer.Unity.pdb" target="lib\net45\DContainer.Unity.pdb" />
+        <file src="..\..\DContainer.Unity\bin\Release\DContainer.Unity.XML" target="lib\net45\DContainer.Unity.XML" />
     </files>
 </package>

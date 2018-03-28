@@ -1,24 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
-  <metadata>
-    <id>DContainer.Prism</id>
-    <version>1.0.11</version>
-    <title>DContainer.Prism</title>
-    <authors>Zork</authors>
-    <owners>Zork</owners>
-    <projectUrl>http://dcontainer.codeplex.com</projectUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Prism Integration for DContainer</description>
-    <copyright>Copyright 2012 @Zork</copyright>
-    <tags>DI IoC Container Prism WPF</tags>
-    <dependencies>
-      <dependency id="DContainer" version="1.0.11" />
-      <dependency id="Prism" version="4.1.0.0" />
-    </dependencies>
-  </metadata>
-  <files>
-    <file src="..\..\DContainer.Prism\bin\Release\DContainer.Prism.dll" target="lib\net40\DContainer.Prism.dll" />
-    <file src="..\..\DContainer.Prism\bin\Release\DContainer.Prism.pdb" target="lib\net40\DContainer.Prism.pdb" />
-    <file src="..\..\DContainer.Prism\bin\Release\DContainer.Prism.XML" target="lib\net40\DContainer.Prism.XML" />
-  </files>
+    <metadata>
+        <id>DContainer.Prism</id>
+        <version>1.1.0</version>
+        <title>DContainer.Prism</title>
+        <authors>Zork</authors>
+        <owners>Zork</owners>
+        <projectUrl>http://dcontainer.codeplex.com</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Prism Integration for DContainer</description>
+        <copyright>Copyright 2012 @Zork</copyright>
+        <tags>DI IoC Container Prism WPF</tags>
+        <dependencies>
+            <dependency id="DContainer" version="1.1.0" />
+            <dependency id="Prism.Core" version="7.0.0.39" />
+            <dependency id="Prism.Wpf" version="6.3.0" />
+            <dependency id="CommonServiceLocator" version="2.0.3" />
+            <dependency id="Common.Logging.Core" version="3.4.1" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\..\DContainer.Prism\bin\Release\DContainer.Prism.dll" target="lib\net45\DContainer.Prism.dll" />
+        <file src="..\..\DContainer.Prism\bin\Release\DContainer.Prism.pdb" target="lib\net45\DContainer.Prism.pdb" />
+        <file src="..\..\DContainer.Prism\bin\Release\DContainer.Prism.XML" target="lib\net45\DContainer.Prism.XML" />
+    </files>
 </package>

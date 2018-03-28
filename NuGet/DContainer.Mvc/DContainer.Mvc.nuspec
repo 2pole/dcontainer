@@ -1,24 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
-  <metadata>
-    <id>DContainer.Mvc</id>
-    <version>1.0.16</version>
-    <title>DContainer.Mvc4</title>
-    <authors>Zork</authors>
-    <owners>Zork</owners>
-    <projectUrl>http://dcontainer.codeplex.com</projectUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>ASP.NET MVC4 Integration for DContainer</description>
-    <copyright>Copyright 2012 @Zork</copyright>
-    <tags>DI IoC Container Mvc</tags>
-    <dependencies>
-      <dependency id="DContainer" version="1.0.13" />
-      <dependency id="Microsoft.Web.Infrastructure" version="1.0.0.0" />
-    </dependencies>
-  </metadata>
-  <files>
-    <file src="..\..\DContainer.Mvc\bin\Release\DContainer.Mvc.dll" target="lib\net40\DContainer.Mvc.dll" />
-    <file src="..\..\DContainer.Mvc\bin\Release\DContainer.Mvc.pdb" target="lib\net40\DContainer.Mvc.pdb" />
-    <file src="..\..\DContainer.Mvc\bin\Release\DContainer.Mvc.XML" target="lib\net40\DContainer.Mvc.XML" />
-  </files>
+    <metadata>
+        <id>DContainer.Mvc</id>
+        <version>1.1.0</version>
+        <title>DContainer.Mvc4</title>
+        <authors>Zork</authors>
+        <owners>Zork</owners>
+        <projectUrl>http://dcontainer.codeplex.com</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>ASP.NET MVC4 Integration for DContainer</description>
+        <copyright>Copyright 2012 @Zork</copyright>
+        <tags>DI IoC Container Mvc</tags>
+        <dependencies>
+            <dependency id="DContainer" version="1.1.0" />
+            <dependency id="Microsoft.Web.Infrastructure" version="1.1.0" />
+            <dependency id="Microsoft.AspNet.WebPages" version="3.2.4" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\..\DContainer.Mvc\bin\Release\DContainer.Mvc.dll" target="lib\net45\DContainer.Mvc.dll" />
+        <file src="..\..\DContainer.Mvc\bin\Release\DContainer.Mvc.pdb" target="lib\net45\DContainer.Mvc.pdb" />
+        <file src="..\..\DContainer.Mvc\bin\Release\DContainer.Mvc.XML" target="lib\net45\DContainer.Mvc.XML" />
+    </files>
 </package>

@@ -1,26 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
-  <metadata>
-    <id>DContainer.Castle</id>
-    <version>1.0.12</version>
-    <title>DContainer.Castle</title>
-    <authors>Zork</authors>
-    <owners>Zork</owners>
-    <projectUrl>http://dcontainer.codeplex.com</projectUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>An adapter to implement DContainer on top of Castle Windsor</description>
-    <copyright>Copyright 2012 @Zork</copyright>
-    <tags>DI IoC Container Castle</tags>
-    <dependencies>
-      <dependency id="DContainer" version="1.0.13" />
-      <dependency id="Castle.Windsor" version="3.1.0" />
-    </dependencies>
-  </metadata>
-  <files>
-    <file src="Content\App.config.transform" target="Content\App.config.transform" />
-    <file src="Content\Web.config.transform" target="Content\Web.config.transform" />
-    <file src="..\..\DContainer.Castle\bin\Release\DContainer.Castle.dll" target="lib\net40\DContainer.Castle.dll" />
-    <file src="..\..\DContainer.Castle\bin\Release\DContainer.Castle.pdb" target="lib\net40\DContainer.Castle.pdb" />
-    <file src="..\..\DContainer.Castle\bin\Release\DContainer.Castle.XML" target="lib\net40\DContainer.Castle.XML" />
-  </files>
+    <metadata>
+        <id>DContainer.Castle</id>
+        <version>1.1.0</version>
+        <title>DContainer.Castle</title>
+        <authors>Zork</authors>
+        <owners>Zork</owners>
+        <projectUrl>http://dcontainer.codeplex.com</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>An adapter to implement DContainer on top of Castle Windsor</description>
+        <copyright>Copyright 2012 @Zork</copyright>
+        <tags>DI IoC Container Castle</tags>
+        <dependencies>
+            <dependency id="DContainer" version="1.1.0" />
+            <dependency id="Castle.Core" version="4.2.1" />
+            <dependency id="Castle.Windsor" version="4.1.0" />
+            <dependency id="CommonServiceLocator" version="4.1.0" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Content\App.config.transform" target="Content\App.config.transform" />
+        <file src="Content\Web.config.transform" target="Content\Web.config.transform" />
+        <file src="..\..\DContainer.Castle\bin\Release\DContainer.Castle.dll" target="lib\net45\DContainer.Castle.dll" />
+        <file src="..\..\DContainer.Castle\bin\Release\DContainer.Castle.pdb" target="lib\net45\DContainer.Castle.pdb" />
+        <file src="..\..\DContainer.Castle\bin\Release\DContainer.Castle.XML" target="lib\net45\DContainer.Castle.XML" />
+    </files>
 </package>
