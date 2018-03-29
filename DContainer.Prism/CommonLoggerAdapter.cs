@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Common.Logging;
-using Microsoft.Practices.Prism.Logging;
+using Prism.Logging;
 
 namespace DContainer.Prism
 {
@@ -16,9 +16,9 @@ namespace DContainer.Prism
         /// <summary>
         /// 
         /// </summary>
-        public CommonLoggerAdapter()
+        public CommonLoggerAdapter(ILogManager logManager)
         {
-            this.Logger = LogManager.GetCurrentClassLogger();
+            this.Logger = logManager.GetLogger<CommonLoggerAdapter>();
         }
 
         #region Implementation of ILoggerFacade

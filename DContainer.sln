@@ -123,9 +123,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DContainer.WebApi", "DConta
 		NuGet\DContainer.WebApi\DContainer.WebApi.nuspec = NuGet\DContainer.WebApi\DContainer.WebApi.nuspec
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DContainer.Prism6", "DContainer.Prism6\DContainer.Prism6.csproj", "{D9374E92-10B6-413D-8EBE-EEC18ECBC2EF}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DContainer", "dcontainer\DContainer.csproj", "{1B2074CC-F0CF-4BDF-BE55-7123DADEC808}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DContainer.Prism", "DContainer.Prism\DContainer.Prism.csproj", "{53283021-D5D3-48B2-851A-E9F6F9572998}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -297,18 +297,6 @@ Global
 		{1E658D0C-F629-457C-9555-AC07071B76A5}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{1E658D0C-F629-457C-9555-AC07071B76A5}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{1E658D0C-F629-457C-9555-AC07071B76A5}.Release|x86.ActiveCfg = Release|Any CPU
-		{D9374E92-10B6-413D-8EBE-EEC18ECBC2EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D9374E92-10B6-413D-8EBE-EEC18ECBC2EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D9374E92-10B6-413D-8EBE-EEC18ECBC2EF}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{D9374E92-10B6-413D-8EBE-EEC18ECBC2EF}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{D9374E92-10B6-413D-8EBE-EEC18ECBC2EF}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{D9374E92-10B6-413D-8EBE-EEC18ECBC2EF}.Debug|x86.Build.0 = Debug|Any CPU
-		{D9374E92-10B6-413D-8EBE-EEC18ECBC2EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D9374E92-10B6-413D-8EBE-EEC18ECBC2EF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D9374E92-10B6-413D-8EBE-EEC18ECBC2EF}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{D9374E92-10B6-413D-8EBE-EEC18ECBC2EF}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{D9374E92-10B6-413D-8EBE-EEC18ECBC2EF}.Release|x86.ActiveCfg = Release|Any CPU
-		{D9374E92-10B6-413D-8EBE-EEC18ECBC2EF}.Release|x86.Build.0 = Release|Any CPU
 		{1B2074CC-F0CF-4BDF-BE55-7123DADEC808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1B2074CC-F0CF-4BDF-BE55-7123DADEC808}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B2074CC-F0CF-4BDF-BE55-7123DADEC808}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -321,6 +309,18 @@ Global
 		{1B2074CC-F0CF-4BDF-BE55-7123DADEC808}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{1B2074CC-F0CF-4BDF-BE55-7123DADEC808}.Release|x86.ActiveCfg = Release|Any CPU
 		{1B2074CC-F0CF-4BDF-BE55-7123DADEC808}.Release|x86.Build.0 = Release|Any CPU
+		{53283021-D5D3-48B2-851A-E9F6F9572998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53283021-D5D3-48B2-851A-E9F6F9572998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53283021-D5D3-48B2-851A-E9F6F9572998}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{53283021-D5D3-48B2-851A-E9F6F9572998}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{53283021-D5D3-48B2-851A-E9F6F9572998}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{53283021-D5D3-48B2-851A-E9F6F9572998}.Debug|x86.Build.0 = Debug|Any CPU
+		{53283021-D5D3-48B2-851A-E9F6F9572998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53283021-D5D3-48B2-851A-E9F6F9572998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53283021-D5D3-48B2-851A-E9F6F9572998}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{53283021-D5D3-48B2-851A-E9F6F9572998}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{53283021-D5D3-48B2-851A-E9F6F9572998}.Release|x86.ActiveCfg = Release|Any CPU
+		{53283021-D5D3-48B2-851A-E9F6F9572998}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -350,7 +350,7 @@ Global
 		{83929D27-251F-4EF6-9DF7-F5BB6D0C2FE1} = {1444735D-631C-4E25-9645-B0BFF2E313D0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {EC26777A-5A7A-4D96-90B1-C21A853DE7C7}
 		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35;packages\Unity.2.1.505.2\lib\NET35
+		SolutionGuid = {EC26777A-5A7A-4D96-90B1-C21A853DE7C7}
 	EndGlobalSection
 EndGlobal

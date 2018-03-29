@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Text;
 using System.Windows;
 using DContainer.Prism.Properties;
-using Microsoft.Practices.Prism;
-using Microsoft.Practices.Prism.Events;
-using Microsoft.Practices.Prism.Logging;
-using Microsoft.Practices.Prism.Modularity;
-using Microsoft.Practices.Prism.Regions;
-using MicrosoftLocation = Microsoft.Practices.ServiceLocation;
+using Prism;
+using Prism.Events;
+using Prism.Logging;
+using Prism.Modularity;
+using Prism.Regions;
+using MicrosoftLocation = CommonServiceLocator;
 
 namespace DContainer.Prism
 {
@@ -117,7 +117,7 @@ namespace DContainer.Prism
             register.RegisterInstanceIfMissing<IModuleCatalog>(this.ModuleCatalog);
             register.RegisterInstanceIfMissing<IServiceContext>(Locator.Context);
             register.RegisterInstanceIfMissing<IServiceRegister>(Locator.Register);
-            register.RegisterInstanceIfMissing<IServiceLocator>(Locator.Root);
+            register.RegisterInstanceIfMissing<MicrosoftLocation.IServiceLocator>(Locator.Root as MicrosoftLocation.IServiceLocator);
 
             if (this._useDefaultConfiguration)
             {
@@ -160,10 +160,7 @@ namespace DContainer.Prism
             manager.Run();
         }
 
-        protected override ILoggerFacade CreateLogger()
-        {
-            return new CommonLoggerAdapter();
-        }
+        protected abstract ILoggerFacade CreateLogger();
 
         #endregion
 

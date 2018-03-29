@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DContainer.Mvc</name>
+    </assembly>
+    <members>
+        <member name="T:DContainer.Mvc.DContainerFilterAttributeFilterProvider">
+            <summary>
+            Defines a filter provider for filter attributes that performs property injection.
+            </summary>
+        </member>
+        <member name="M:DContainer.Mvc.DContainerFilterAttributeFilterProvider.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:DContainer.Mvc.DContainerFilterAttributeFilterProvider"/> class.
+            </summary>
+            <remarks>
+            The <c>false</c> constructor parameter passed to base here ensures that attribute instances are not cached.
+            </remarks>
+        </member>
+        <member name="M:DContainer.Mvc.DContainerFilterAttributeFilterProvider.GetFilters(System.Web.Mvc.ControllerContext,System.Web.Mvc.ActionDescriptor)">
+            <summary>
+            Aggregates the filters from all of the filter providers into one collection.
+            </summary>
+            <param name="controllerContext">The controller context.</param>
+            <param name="actionDescriptor">The action descriptor.</param>
+            <returns>
+            The collection filters from all of the filter providers with properties injected.
+            </returns>
+        </member>
+        <member name="T:DContainer.Mvc.DContainerModelBinderProvider">
+            <summary>
+            Service Location implementation of the <see cref="T:System.Web.Mvc.IModelBinderProvider"/> interface.
+            </summary>
+        </member>
+        <member name="F:DContainer.Mvc.DContainerModelBinderProvider.MetadataKey">
+            <summary>
+            Metadata key for the supported model types.
+            </summary>
+        </member>
+        <member name="M:DContainer.Mvc.DContainerModelBinderProvider.GetBinder(System.Type)">
+            <summary>
+            Gets the model binder associated with the provided model type.
+            </summary>
+            <param name="modelType">Type of the model.</param>
+            <returns>An <see cref="T:System.Web.Mvc.IModelBinder"/> instance if found; otherwise, <c>null</c>.</returns>
+        </member>
+        <member name="T:DContainer.Mvc.ModelBinderTypeAttribute">
+            <summary>
+            Indicates what types a model binder supports.
+            </summary>
+        </member>
+        <member name="P:DContainer.Mvc.ModelBinderTypeAttribute.TargetTypes">
+            <summary>
+            Gets the target types.
+            </summary>
+        </member>
+        <member name="M:DContainer.Mvc.ModelBinderTypeAttribute.#ctor(System.Type[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:DContainer.Mvc.ModelBinderTypeAttribute"/> class.
+            </summary>
+            <param name="targetTypes">The target types.</param>
+        </member>
+        <member name="M:DContainer.Mvc.ModelBinderTypeAttribute.#ctor(System.Type)">
+            <summary>
+            Initializes a new instance of the <see cref="T:DContainer.Mvc.ModelBinderTypeAttribute"/> class.
+            </summary>
+            <param name="targetType">The target type.</param>
+        </member>
+        <member name="T:DContainer.Mvc.PreApplicationStartCode">
+            <summary>
+            Container class for the ASP.NET application startup method.
+            </summary>
+        </member>
+        <member name="M:DContainer.Mvc.PreApplicationStartCode.Start">
+            <summary>
+            Performs ASP.NET application startup logic early in the pipeline.
+            </summary>
+        </member>
+        <member name="P:DContainer.Mvc.RequestLifetimeHttpModule.ChildServiceLocator">
+            <summary>
+            Gets the IoC Service Location that should be notified when a HTTP request ends.
+            </summary>
+        </member>
+        <member name="M:DContainer.Mvc.ServiceRegisterExtensions.RegisterFilterProvider(DContainer.IServiceRegister)">
+            <summary>
+            Registers the <see cref="T:DContainer.Mvc.DContainerFilterAttributeFilterProvider"/>.
+            </summary>
+            <param name="register">The container builder.</param>
+        </member>
+    </members>
+</doc>
